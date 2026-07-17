@@ -1,5 +1,5 @@
 {
-  "name": "{{PROJECT_NAME}}",
+  "name": "vue-template",
   "version": "0.0.0",
   "private": true,
   "type": "module",
