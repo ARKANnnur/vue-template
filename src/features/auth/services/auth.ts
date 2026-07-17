@@ -20,18 +20,18 @@ export async function loginApi(data: LoginInput): Promise<{ user: User; token: s
       },
       token: 'mock-jwt-token-xyz',
     };
-  } else if (data.email === 'dev@antigravity.ai' && data.password === 'dev123') {
+  } else if (data.email === 'user@example.com' && data.password === 'user123') {
     return {
       user: {
         id: '2',
-        name: 'Antigravity Developer',
+        name: 'John Doe',
         email: data.email,
-        role: 'Lead Architect',
+        role: 'Software Engineer',
         avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=256&h=256&q=80',
       },
       token: 'mock-jwt-token-abc',
     };
   } else {
-    throw new Error('Email atau password salah! (Tips: Gunakan dev@antigravity.ai / dev123)');
+    throw new Error('Email atau password salah! (Tips: Gunakan user@example.com / user123)');
   }
 }

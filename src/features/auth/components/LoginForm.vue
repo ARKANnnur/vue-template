@@ -126,7 +126,7 @@ onUnmounted(() => {
 
     <div class="mt-2 text-center">
       <p class="text-[10px] text-zinc-400">
-        Uji coba dengan: <code class="bg-zinc-100 dark:bg-zinc-800 px-1 py-0.5 rounded font-mono">dev@antigravity.ai</code> dan pass: <code class="bg-zinc-100 dark:bg-zinc-800 px-1 py-0.5 rounded font-mono">dev123</code>
+        Uji coba dengan: <code class="bg-zinc-100 dark:bg-zinc-800 px-1 py-0.5 rounded font-mono">user@example.com</code> dan pass: <code class="bg-zinc-100 dark:bg-zinc-800 px-1 py-0.5 rounded font-mono">user123</code>
       </p>
     </div>
   </form>
