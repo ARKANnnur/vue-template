@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+/* 
+  Di Tailwind CSS v4, konfigurasi tema dilakukan langsung di file CSS menggunakan @theme.
+  Contoh:
+  @theme {
+    --color-primary: #3b82f6;
+  }
+*/
