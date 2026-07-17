@@ -1,4 +1,4 @@
-# {{PROJECT_NAME}}
+# vue-template
 
 Vue 3 Starter Template yang distrukturkan menggunakan arsitektur **Feature-Driven / Vertical Slicing**. Project ini siap digunakan untuk pengembangan frontend skala menengah hingga besar dengan Pinia state management + persistence, router, linter modern, dan form validation berbasis Zod.
 
@@ -75,7 +75,7 @@ npm run setup
 ```
 *Script ini akan otomatis:*
 1. Meminta Anda memasukkan nama project baru.
-2. Mengganti semua teks placeholder `{{PROJECT_NAME}}` di file `package.json`, `package-lock.json`, `README.md`, dan `index.html`.
+2. Mengganti semua teks placeholder `vue-template` di file `package.json`, `package-lock.json`, `README.md`, dan `index.html`.
 3. Mengatur ulang repository Git baru (menghapus riwayat commit template).
 4. Menghapus script setup itu sendiri agar bersih.
 
